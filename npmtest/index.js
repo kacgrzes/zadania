@@ -9,8 +9,8 @@ process.stdin.on('readable', function(){
   if(input !==null){
     var instruction = input.trim();
     switch(instruction){
-		case '/exit': process.stdout.write('Quitting App\n');
-		process.exit();
+        case '/exit': process.stdout.write('Quitting App\n');
+        process.exit();
         break;
         case '/sayhello':process.stdout.write('hello\n');
         break;
