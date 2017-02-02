@@ -1,5 +1,6 @@
 var os=require('os');
 var timeFormat=require('./timeFormat');
+var colors=require('colors');
 
 
 
@@ -12,16 +13,17 @@ function getOSinfo(){
 	else if(type === 'Windows_NT') {
 			type = 'Windows';
 	}
-	console.log('System:', type);
-	console.log('Release:', release);
+	console.log('System:'.red+ type);
+	console.log('Release:'.green+ release);
 	var cpu = os.cpus()[0].model;
-	console.log('CPU model:', cpu);
+	console.log('CPU model:'.magenta+ cpu);
 	timeFormat.print();
 	var userInfo=os.userInfo();
-	console.log('user name:'+userInfo.username);
-	console.log('home dir:'+userInfo.homedir);
+	console.log('user name:'.blue+userInfo.username);
+	console.log('home dir:'.rainbow+userInfo.homedir);
 	  
   }  
   
   exports.print=getOSinfo;	
+  	
   
