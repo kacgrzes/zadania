@@ -15,6 +15,9 @@
     "npm"
   ],
   "author": "maciek",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/szopizzle/test1/issues"
