@@ -7,6 +7,7 @@ var input= process.stdin.read();
 
 if(input !== null){
   var instruction=input.toString().trim();
+    var lang = process.env.LANG || 'sorry, information about your system language is unavalible';
 
   switch(instruction){ 
     case '/exit':  
@@ -19,7 +20,7 @@ if(input !== null){
       break;
 
     case '/lang':
-      process.stdout.write('your system language is ' + process.env.LANG+'\n'); 
+      process.stdout.write(lang+'\n'); 
       break;
 
     default:
