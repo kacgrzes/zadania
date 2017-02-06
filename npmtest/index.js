@@ -9,18 +9,18 @@ process.stdin.on('readable', function(){
   if(input !==null){
     var instruction = input.trim();
     switch(instruction){
-        case '/exit': 
-		process.stdout.write('Quitting App\n');
-        	process.exit();
-        	break;
+        case '/exit':
+            process.stdout.write('Quitting App\n');
+            process.exit();
+            break;
         case '/sayhello':
-		process.stdout.write('hello\n');
-        	break;
-	case '/getOSinfo':
-		osinfo.print();
-        	break;
+            process.stdout.write('hello\n');
+            break;
+	   case '/getOSinfo':
+	       osinfo.print();
+            break;
         default:
-		process.stderr.write('wrong instruction');
+	       process.stderr.write('wrong instruction');
 	  }
     }
 })
