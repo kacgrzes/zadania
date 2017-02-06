@@ -16,11 +16,11 @@ process.stdin.on('readable', function(){
         case '/sayhello':
             process.stdout.write('hello\n');
             break;
-	   case '/getOSinfo':
-	       osinfo.print();
+	case '/getOSinfo':
+	    osinfo.print();
             break;
         default:
-	       process.stderr.write('wrong instruction');
+	    process.stderr.write('wrong instruction');
 	  }
     }
 })
