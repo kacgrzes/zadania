@@ -131,28 +131,28 @@ button:active{
 }
 
 *::-webkit-input-placeholder {
-    color: whitesmoke;
-    padding-left: 14px;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	color: whitesmoke;
+	padding-left: 14px;
+	font-weight: 600;
+    	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
 *:-moz-placeholder {
-    color: whitesmoke;
-    padding-left: 14px;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    	color: whitesmoke;
+    	padding-left: 14px;
+    	font-weight: 600;
+    	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 
 }
 *::-moz-placeholder {
-    color: whitesmoke;
-    padding-left: 14px;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
-
+    	color: whitesmoke;
+    	padding-left: 14px;
+    	font-weight: 600;
+    	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
+
 *:-ms-input-placeholder {
-    color: whitesmoke;
-    padding-left: 14px;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.3)
+	color: whitesmoke;
+    	padding-left: 14px;
+    	font-weight: 600;
+    	text-shadow: 1px 1px 5px rgba(0,0,0,0.3)
 }
