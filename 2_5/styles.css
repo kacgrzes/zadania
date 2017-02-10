@@ -1,0 +1,158 @@
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: whitesmoke;
+	background: whitesmoke;
+
+}
+
+.app{
+	margin: 0 auto;
+	width: 370px;
+	background: linear-gradient(21deg,  #904e95, #e96450);
+	padding: 30px 5px 30px 5px;
+	box-shadow: 0 0 22px black;
+	border-radius: 5px;
+}
+
+.contactForm{
+
+}
+
+ul{
+	padding: 0;
+	 
+}
+
+.contactsList{
+	width: 370px;
+}
+
+.contactItem{
+	background: rgba(255,255,255,0.1);
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 3px 3px 12px rgba(0,0,0,0.4);
+	position: relative;
+	border-radius: 3px;
+	color: white;
+	font-weight: 800;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.contactItem:hover{
+	background: rgba(255,255,255,0.15);
+
+}
+
+.contactItem:active{
+	box-shadow:-1px -1px  12px rgba(0,0,0,0.4);
+}
+
+.contactEmail{
+	color: whitesmoke;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	font-size: 14px;
+}
+
+.contactEmail:hover{
+	color: white;
+
+}
+
+.conactEmail:before{
+	font-family: 'FontAwesome';
+	content: '\f003';
+	position: absolute;
+}
+
+img{
+	position: absolute;
+	height: 60px;
+	left: 260px;
+	top: 15px;
+}
+
+form{
+	display: block;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+input{
+	display: block;
+	background: rgba(255,255,255,0.4);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+	margin: 10px;
+	height: 35px;
+	border: 0;
+	border-radius: 3px;
+	color: whitesmoke;
+	width: 95%;
+	outline:none;
+}
+ 
+input:focus{
+	box-shadow: 2px 2px 12px rgba(255,255,255,0.3);
+}
+
+
+button{
+	border:0;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	background:  rgba(255,255,255,0.4);
+	color: white;
+	height: 40px;
+	width:150px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: 600;
+	position: absolute;
+	left: 100px;
+	
+}
+
+button:hover{
+	background:rgba(255,255,255,0.5);
+}
+
+button:active{
+	box-shadow: -2px -2px 12px rgba(0,0,0,0.3);
+	outline: none;
+}
+
+.contactLabel{
+	margin-bottom:4px;
+	margin-top:4px;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+
+*::-webkit-input-placeholder {
+    color: whitesmoke;
+    padding-left: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+*:-moz-placeholder {
+    color: whitesmoke;
+    padding-left: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+*::-moz-placeholder {
+    color: whitesmoke;
+    padding-left: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+*:-ms-input-placeholder {
+    color: whitesmoke;
+    padding-left: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3)
+}
