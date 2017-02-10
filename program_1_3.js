@@ -26,4 +26,5 @@ if(input !== null){
     default:
       process.stderr.write('wrong instruction\n');
     }
-}});
+  }
+});
