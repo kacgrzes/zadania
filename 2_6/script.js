@@ -1,11 +1,12 @@
 var Counter = React.createClass({
 	
 	getInitialState: function(){
+		console.log('getInitialState');
 		return{
 			counter : 0
 			};
 
-		console.log('getInitialState');
+		
 	},
 
 	increment: function(){
@@ -52,7 +53,7 @@ var Counter = React.createClass({
    },
 
    componentWillUpdate(nextProps, nextState){
-   		console.log('componentWillUpdate - bo zmiana w stanie, więc można re-renderować' );
+   		console.log('componentWillUpdate - bo zmiana w stanie lub propsach, więc można re-renderować' );
    },
 
    componentDidUpdate(prevProps, prevState){
@@ -67,7 +68,7 @@ var Counter = React.createClass({
 
 var Unmount = React.createClass({
 	demontuj : function (){
-		console.log('bla');
+		console.log('demontuje');
 		ReactDOM.unmountComponentAtNode(document.getElementById('app'));
 	},
 
@@ -81,6 +82,5 @@ var Unmount = React.createClass({
 
 
 
-var element = React.createElement('div', {},
-	React.createElement(Counter, {}),React.createElement(Counter,{}), React.createElement(Unmount, {}));
+var element = React.createElement('div', {}, React.createElement(Counter, {}),React.createElement(Counter,{}), React.createElement(Unmount, {}));
 ReactDOM.render(element, document.getElementById('app'));
