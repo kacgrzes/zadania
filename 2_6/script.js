@@ -31,7 +31,7 @@ var Counter = React.createClass({
 	},
 
 	getDefaultProps: function() {
-        console.log('Pobiera propsy')
+		console.log('Pobiera propsy')
     },
 
 	 
